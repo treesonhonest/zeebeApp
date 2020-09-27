@@ -1,0 +1,21 @@
+entity Teacher {
+	name String
+	age Integer
+    kemu String
+}
+
+entity Student {
+	name String
+    age Integer
+}
+
+entity Sick {
+	reason String
+    days Integer
+    jobKey Long
+}
+
+relationship OneToMany {
+	Teacher to Student{teacher},
+}
+
