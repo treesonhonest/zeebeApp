@@ -1,0 +1,33 @@
+{
+  "name": "Student",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "age",
+      "fieldType": "Integer"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "teacher",
+      "otherEntityRelationshipName": "student",
+      "relationshipName": "teacher",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20200927023137",
+  "entityTableName": "student",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

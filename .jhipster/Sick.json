@@ -1,0 +1,29 @@
+{
+  "name": "Sick",
+  "fields": [
+    {
+      "fieldName": "reason",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "days",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "jobKey",
+      "fieldType": "Long"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20200927023237",
+  "entityTableName": "sick",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

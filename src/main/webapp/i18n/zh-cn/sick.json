@@ -1,0 +1,24 @@
+{
+  "zeebeApp": {
+    "sick": {
+      "home": {
+        "title": "Sicks",
+        "createLabel": "创建新 Sick",
+        "createOrEditLabel": "创建或编辑 Sick",
+        "notFound": "No Sicks found"
+      },
+      "created": "Sick {{ param }} 创建成功",
+      "updated": "Sick {{ param }} 更新成功",
+      "deleted": "Sick {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Sick {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Sick"
+      },
+      "reason": "Reason",
+      "days": "Days",
+      "jobKey": "Job Key"
+    }
+  }
+}

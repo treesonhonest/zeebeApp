@@ -47,6 +47,10 @@ public class CacheConfiguration {
             createCache(cm, com.lc.zeebe.domain.User.class.getName());
             createCache(cm, com.lc.zeebe.domain.Authority.class.getName());
             createCache(cm, com.lc.zeebe.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.lc.zeebe.domain.Teacher.class.getName());
+            createCache(cm, com.lc.zeebe.domain.Teacher.class.getName() + ".students");
+            createCache(cm, com.lc.zeebe.domain.Student.class.getName());
+            createCache(cm, com.lc.zeebe.domain.Sick.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
